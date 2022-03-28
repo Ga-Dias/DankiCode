@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+.center{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.end{
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*
+MENU
+*/
+
+.header{
+    width: 100%;
+    height: 90px;
+    background-color: #212343;
+}
+
+/*Logo*/
+.header img{
+    margin-top: 30px;
+    margin-left: 70px;
+}
+
+
+/*
+FUNDO
+*/
+
+.banner{
+    width: 100%;
+    height: 547px;
+    background-image: url(../Imagens/header_bg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.banner img{
+    margin: 15px;
+}
+
+.banner > .center{
+    height: 100%;
+}
+
+
+/*
+FORMULARIO
+*/
+
+/*quadrado do form*/
+.form{
+    width: 400px;
+    height: calc(100% + 30px);
+    float: right;
+    position: relative;
+    border: 12px solid #ccc;
+    top: -15px;
+    background-color: white;
+}
+/*borda*/
+form > fieldset{
+    border: hidden;
+    margin: 20px auto;
+}
+/*titulo*/
+form > fieldset > legend{
+    display: inline-block;
+    font-size: 22px;
+    margin: auto auto;
+    margin-bottom: 10px;
+    color: rgb(158, 158, 158);
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Texto*/
+fieldset > p, .form > .obrigatorio{
+    font-size: 20px;
+    color: rgb(158, 158, 158);
+    margin-bottom: 5px;
+    margin-left: 11px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*lugar pra escrever*/
+form input[type=text]{
+    display: inline-block;
+    margin-left: 11px;
+    border: 1px solid #ccc;
+    width: 90%;
+    height: 60px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: rgb(94, 94, 94);
+}
+
+form input[type=text]:focus{
+    outline: 0;
+}
+
+/*Botao*/
+.form input[type=submit]{
+    display: block;
+    margin: 30px auto;
+    background-color: #52568f;
+    color: white;
+    border: 0;
+    width: 70%;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.form input[type=submit]:hover{
+    background-color: #212343;
+}
+/*
+INFORMAÇÕES
+*/
+
+/*Quadrado*/
+.center > .info{
+    display: inline-block;
+    background-color: rgba(33, 35, 67, 0.7);
+    width: 600px;
+    height: 300px;
+    margin: 120px 50px;
+}
+
+/*texto bloco*/
+.info > .lista{
+    list-style-position: inside;
+    margin-top: 45px;
+    font-size: 18px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 580px;
+}
+
+/*texto*/
+ .info > .lista > li{
+    margin: 30px 10px;
+ }
+
+ /*
+ TEXTO DO MEIO
+ */
+
+ /*fundo*/
+ .mid{
+    display: inline-block;
+    width: 100%;
+    height: 300px;
+    margin-top: -30px;
+    background-color: rgb(223, 223, 223);
+ }
+
+ /*Titulo*/
+ .mid span{
+    display: block;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 45px auto;
+    text-align: center;
+ }
+
+ /*texto*/
+ .mid p{
+    width: 60%;
+    text-align: left;
+    margin: -15px 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(131, 131, 131);
+}
+
+/*Seta*/
+.mid > .seta > img{
+    width: 50px;
+    height: auto;
+    margin-left: 50%;
+    position: relative;
+    top: 70px;
+}
+
+/*
+FINAL
+*/
+
+/*Titulo*/
+.end > .titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 25px;
+    color: #212343;
+}
+
+/*Blocos*/
+.end > .computador{
+min-width: 1280px;
+margin: 0;
+box-sizing: content-box;
+text-align: center;
+}
+
+/*Alinhamneto*/
+.bloco{
+    margin: 100px 70px;
+    display: inline-block;
+    width: 300px;
+    vertical-align: top;
+}
+
+/*Texto bloco*/
+.bloco > span, p{
+    display: block;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 300px;
+}
+
+/*subtitulo*/
+.bloco > span{
+    font-size: 18px;
+}
+
+/*texto*/
+.bloco > p{
+    color: rgb(131, 131, 131);
+}
+
+/*
+DIRETOS
+*/
+
+/*bloco*/
+.direitos{
+    margin-top: 50px;
+    width: 100%;
+    height: 120px;
+    border-top: 3px solid rgba(33, 35, 67, 0.5);
+    display: inline-block;
+}
+
+/*texto*/
+.end > .direitos > .texto > p{
+    width: 100%;
+    text-align: center;
+    height: 10px;
+    color: rgb(167, 165, 165);
+}
